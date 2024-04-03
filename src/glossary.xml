@@ -1,0 +1,357 @@
+<?xml version='1.0' encoding="utf-8"?>
+
+<glossary xmlns="http://docbook.org/ns/docbook"
+    xml:id="glossary"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+<title>缩略词</title>
+<para>常用缩略词如下：</para>
+
+<glossdiv><title>A</title>
+    <glossentry><glossterm>AP</glossterm>
+        <acronym>AP</acronym>
+        <glossdef>
+          <para>Access Point</para>
+        </glossdef>
+    </glossentry>
+</glossdiv>
+
+<glossdiv><title>B</title>
+    <glossentry id="BPSK"><glossterm>BPSK</glossterm>
+        <acronym>BPSK</acronym>
+        <glossdef>
+          <para>Binary Phase Shift Keying</para>
+        </glossdef>
+    </glossentry>
+    <glossentry id="BSS"><glossterm>BSS</glossterm>
+        <acronym>BSS</acronym>
+        <glossdef>
+          <para>Basic Service Set</para>
+        </glossdef>
+    </glossentry>
+</glossdiv>
+
+<glossdiv><title>C</title>
+    <glossentry id="CCK"><glossterm>CCK</glossterm>
+        <acronym>CCK</acronym>
+        <glossdef>
+          <para>Complementary Code Keying</para>
+        </glossdef>
+    </glossentry>
+    <glossentry id="CRC"><glossterm>CRC</glossterm>
+        <acronym>CRC</acronym>
+        <glossdef>
+          <para>Cyclic Redundancy Check</para>
+        </glossdef>
+    </glossentry>
+    <glossentry id="CRDA"><glossterm>CRDA</glossterm>
+        <acronym>CRDA</acronym>
+        <glossdef>
+          <para>Central Regulatory Domain Agent</para>
+        </glossdef>
+    </glossentry>
+    <glossentry id="CSMA_CA"><glossterm>CSMA/CA</glossterm>
+        <acronym>CSMA/CA</acronym>
+        <glossdef>
+          <para>Carrier Sense Multiple Access with Collision Avoidance</para>
+        </glossdef>
+    </glossentry>
+    <glossentry id="CSMA_CD"><glossterm>CSMA/CD</glossterm>
+        <acronym>CSMA/CD</acronym>
+        <glossdef>
+          <para>Carrier Sense Multiple Access with Collision Detection</para>
+        </glossdef>
+    </glossentry>
+    <glossentry id="CTS"><glossterm>CTS</glossterm>
+        <acronym>CTS</acronym>
+        <glossdef>
+          <para>Clear To Send</para>
+        </glossdef>
+    </glossentry>
+</glossdiv>
+
+<glossdiv><title>D</title>
+    <glossentry id="DCF"><glossterm>DCF</glossterm>
+        <acronym>DCF</acronym>
+        <glossdef>
+          <para>Distribution Coordination Function</para>
+        </glossdef>
+    </glossentry>
+    <glossentry id="DHCP"><glossterm>DHCP</glossterm>
+        <acronym>DHCP</acronym>
+        <glossdef>
+          <para>Dynamic Host Configuration Protocol</para>
+        </glossdef>
+    </glossentry>
+    <glossentry id=""><glossterm></glossterm>
+        <acronym></acronym>
+        <glossdef>
+          <para></para>
+        </glossdef>
+    </glossentry>
+    <glossentry id="DS"><glossterm>DS</glossterm>
+        <acronym>DS</acronym>
+        <glossdef>
+          <para>Distribution System</para>
+        </glossdef>
+    </glossentry>
+    <glossentry id="DSSS"><glossterm>DSSS</glossterm>
+        <acronym>DSSS</acronym>
+        <glossdef>
+          <para>Direct Sequence Spread Spectrum</para>
+        </glossdef>
+    </glossentry>
+</glossdiv>
+
+<glossdiv><title>E</title>
+    <glossentry><glossterm>ESS</glossterm>
+        <acronym>ESS</acronym>
+        <glossdef>
+          <para>Extended Service Set</para>
+        </glossdef>
+    </glossentry>
+
+    <glossentry id="ETSI"><glossterm>ETSI</glossterm>
+        <acronym>ETSI</acronym>
+        <glossdef>
+          <para>European Telecommunications Standards Institute</para>
+        </glossdef>
+    </glossentry>
+</glossdiv>
+
+<glossdiv><title>F</title>
+    <glossentry id="FCC"><glossterm>FCC</glossterm>
+        <acronym>FCC</acronym>
+        <glossdef>
+          <para>Federal Communications Commission (USA)</para>
+        </glossdef>
+    </glossentry>
+    <glossentry id="FDDI"><glossterm>FDDI</glossterm>
+        <acronym>FDDI</acronym>
+        <glossdef>
+          <para>Fiber Distributed Data Interface</para>
+        </glossdef>
+    </glossentry>
+    <glossentry id="FHSS"><glossterm>FHSS</glossterm>
+        <acronym>FHSS</acronym>
+        <glossdef>
+          <para>Frequency Hopping Spread Spectrum</para>
+        </glossdef>
+    </glossentry>
+</glossdiv>
+
+<glossdiv><title>I</title>
+    <glossentry id="IBSS"><glossterm>IBSS</glossterm>
+        <acronym>IBSS</acronym>
+        <glossdef>
+          <para>Independent Basic Service Set</para>
+          <glossseealso otherterm="BSS">BSS</glossseealso>
+        </glossdef>
+    </glossentry>
+    <glossentry id="IEEE"><glossterm>IEEE</glossterm>
+        <acronym>IEEE</acronym>
+        <glossdef>
+          <para>Institute of Electrical and Electronics Engineers</para>
+        </glossdef>
+    </glossentry>
+    <glossentry id=""><glossterm></glossterm>
+        <acronym></acronym>
+        <glossdef>
+          <para></para>
+        </glossdef>
+    </glossentry>
+    <glossentry id="IETF"><glossterm>IETF</glossterm>
+        <acronym>IETF</acronym>
+        <glossdef>
+          <para>Internet Engineering Task Force</para>
+        </glossdef>
+    </glossentry>
+    <glossentry id="IP"><glossterm>IP</glossterm>
+        <acronym>IP</acronym>
+        <glossdef>
+          <para>Internet Protocol</para>
+        </glossdef>
+    </glossentry>
+    <glossentry id="IPSec"><glossterm>IPSec</glossterm>
+        <acronym>IPSec</acronym>
+        <glossdef>
+          <para>Internet Protocol security</para>
+        </glossdef>
+    </glossentry>
+    <glossentry id="ISA"><glossterm>ISA</glossterm>
+        <acronym>ISA</acronym>
+        <glossdef>
+          <para>Integrated Services Architecture</para>
+        </glossdef>
+    </glossentry>
+    <glossentry id="ISM"><glossterm>ISM</glossterm>
+        <acronym>ISM</acronym>
+        <glossdef>
+          <para>Industry, Scientific, and Medical</para>
+        </glossdef>
+    </glossentry>
+    <glossentry id="ISO"><glossterm>ISO</glossterm>
+        <acronym>ISO</acronym>
+        <glossdef>
+          <para>International Organization for Standardization</para>
+        </glossdef>
+    </glossentry>
+    <glossentry id="ITU_T"><glossterm>ITU-T</glossterm>
+        <acronym>ITU-T</acronym>
+        <glossdef>
+          <para>International Telecommunication Union-Telecommunication</para>
+        </glossdef>
+    </glossentry>
+</glossdiv>
+
+<glossdiv><title>L</title>
+    <glossentry id="LLC"><glossterm>LLC</glossterm>
+        <acronym>LLC</acronym>
+        <glossdef>
+          <para>Logical Link Control</para>
+        </glossdef>
+    </glossentry>
+</glossdiv>
+
+<glossdiv><title>M</title>
+    <glossentry id="MAC"><glossterm>MAC</glossterm>
+        <acronym>MAC</acronym>
+        <glossdef>
+          <para>Media Access Control</para>
+        </glossdef>
+    </glossentry>
+    <glossentry id="MIB"><glossterm>MIB</glossterm>
+        <acronym>MIB</acronym>
+        <glossdef>
+          <para>Management Information Base</para>
+        </glossdef>
+    </glossentry>
+    <glossentry id="MKK"><glossterm>MKK</glossterm>
+        <acronym>MKK</acronym>
+        <glossdef>
+          <para>Radio Equipment Inspection and Certification Institute (Japan)</para>
+        </glossdef>
+    </glossentry>
+</glossdiv>
+
+<glossdiv><title>N</title>
+    <glossentry id="NIC"><glossterm>NIC</glossterm>
+        <acronym>NIC</acronym>
+        <glossdef>
+          <para>Network Interface Card</para>
+        </glossdef>
+    </glossentry>
+
+    <glossentry id="NOS"><glossterm>NOS</glossterm>
+        <acronym>NOS</acronym>
+        <glossdef>
+          <para>Network Operating System</para>
+        </glossdef>
+    </glossentry>
+</glossdiv>
+
+<glossdiv><title>O</title>
+    <glossentry id="OSI"><glossterm>OSI</glossterm>
+        <acronym>OSI</acronym>
+        <glossdef>
+          <para>Open System Interconnection</para>
+        </glossdef>
+    </glossentry>
+</glossdiv>
+
+<glossdiv><title>P</title>
+    <glossentry id="PCF"><glossterm>PCF</glossterm>
+        <acronym>PCF</acronym>
+        <glossdef>
+          <para>Point Coordination Function</para>
+        </glossdef>
+    </glossentry>
+    <glossentry id="PCI"><glossterm>PCI</glossterm>
+        <acronym>PCI</acronym>
+        <glossdef>
+          <para>Peripheral Component Interconnect</para>
+        </glossdef>
+    </glossentry>
+    <glossentry id="PRNG"><glossterm>PRNG</glossterm>
+        <acronym>PRNG</acronym>
+        <glossdef>
+          <para>Pseudo Random Number Generator</para>
+        </glossdef>
+    </glossentry>
+</glossdiv>
+
+<glossdiv><title>Q</title>
+    <glossentry id="QPSK"><glossterm>QPSK</glossterm>
+        <acronym>QPSK</acronym>
+        <glossdef>
+          <para>Quadrature Phase Shift Keying</para>
+        </glossdef>
+    </glossentry>
+</glossdiv>
+
+<glossdiv><title>R</title>
+    <glossentry id="RC4"><glossterm>RC4</glossterm>
+        <acronym>RC4</acronym>
+        <glossdef>
+          <para>Rivest Cipher 4</para>
+        </glossdef>
+    </glossentry>
+    <glossentry id="RTS"><glossterm>RTS</glossterm>
+        <acronym>RTS</acronym>
+        <glossdef>
+          <para>Request to Send</para>
+        </glossdef>
+    </glossentry>
+</glossdiv>
+
+<glossdiv><title>S</title>
+    <glossentry id="SNMP"><glossterm>SNMP</glossterm>
+        <acronym>SNMP</acronym>
+        <glossdef>
+          <para>Simple Network Management Protocol</para>
+        </glossdef>
+    </glossentry>
+</glossdiv>
+
+<glossdiv><title>T</title>
+    <glossentry id="TCP_IP"><glossterm>TCP/IP</glossterm>
+        <acronym>TCP/IP</acronym>
+        <glossdef>
+          <para>Transmission Control Protocol/Internet Protocol</para>
+        </glossdef>
+    </glossentry>
+</glossdiv>
+
+<glossdiv><title>W</title>
+    <glossentry id="WECA"><glossterm>WECA</glossterm>
+        <acronym>WECA</acronym>
+        <glossdef>
+          <para>Wireless Ethernet Compatibility Alliance</para>
+        </glossdef>
+    </glossentry>
+    <glossentry id="WEP"><glossterm>WEP</glossterm>
+        <acronym>WEP</acronym>
+        <glossdef>
+          <para>Wired Equivalent Privacy</para>
+        </glossdef>
+    </glossentry>
+    <glossentry id="Wext"><glossterm>Wext</glossterm>
+        <acronym>Wext</acronym>
+        <glossdef>
+          <para>Wireless Extension</para>
+        </glossdef>
+    </glossentry>
+    <glossentry id="WLAN"><glossterm>WLAN</glossterm>
+        <acronym>WLAN</acronym>
+        <glossdef>
+          <para>Wireless Local Area Network</para>
+        </glossdef>
+    </glossentry>
+    <glossentry id="WLANA"><glossterm>WLANA</glossterm>
+        <acronym>WLANA</acronym>
+        <glossdef>
+          <para>Wireless LAN Alliance</para>
+        </glossdef>
+    </glossentry>
+</glossdiv>
+
+</glossary>

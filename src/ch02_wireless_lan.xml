@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding="utf-8"?>
+
+<!DOCTYPE chapter
+[
+
+<!ENTITY % crl_ent PUBLIC "crl.ent" 'http://www.crifan.com/files/res/docbook/entity/crl.ent'>
+%crl_ent;
+
+]>
+
+<chapter xmlns="http://docbook.org/ns/docbook"
+    xml:id="ch02_wireless_lan"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+
+<title>Wireless LAN </title>
+<abstract></abstract>
+<para>无线信号传输方式有两种，窄带通信与扩频通信：</para>
+<itemizedlist>
+    <listitem>窄带无线电通信(Narrow-Band Radio) 
+        <para>这种技术类似于无线电台的广播，必须把发送器和接收器都调拨到同一频带。</para>
+        <para>无线电信号可以穿越墙物，在一个很广的域内传播，所以不必把它调聚成束。</para>
+        <para>然而，窄带射频发送有无线电波反射的问题，并受联邦通信委员会管制，它们必须准确地进行调谐，以防其它频率的干扰。</para>
+    </listitem>
+    <listitem>扩展频谱通信（Spread Spectrum Communication） 
+        <para>简称扩频通信，是一种信息传输方式，其信号所占有的频带宽度远大于所传信息必需的最小带宽。</para>
+        <para>频带的扩展是通过一个独立的码序列（一般是伪随机码）来完成，用编码及调制的方法来实现的，与所传信息数据无关</para>
+        <para>在接收端则用同样的码进行相关同步接收、解扩及恢复所传信息数据。</para>
+        <para>这种技术是在一个很宽的频率范围内广播信号，避免在窄带无线电通信中遇到的问题。</para>
+        <para>用一种编码来传播信号，接收站用同一编码来恢复信号。用这种方法，扩频无 线电信号能工作在其它信号所占据的频率范围内。</para>
+        <para>扩频无线电信号不会干涉常规的无线电广播，这是因为它的能量十分微弱。</para>
+    </listitem>
+</itemizedlist>
+
+<sect1><title>802.11</title>
+    <para></para>
+    <para></para>
+    <para></para>
+</sect1>
+
+<sect1><title>Bluetooth</title>
+    <para></para>
+    <para></para>
+    <para></para>
+</sect1>
+
+<sect1><title>IR</title>
+    <para></para>
+    <para></para>
+    <para></para>
+</sect1>
+
+</chapter>

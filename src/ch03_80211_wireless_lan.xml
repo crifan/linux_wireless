@@ -1,0 +1,105 @@
+<?xml version='1.0' encoding="utf-8"?>
+
+<!DOCTYPE chapter
+[
+
+<!ENTITY % crl_ent PUBLIC "crl.ent" 'http://www.crifan.com/files/res/docbook/entity/crl.ent'>
+%crl_ent;
+
+]>
+
+<chapter xmlns="http://docbook.org/ns/docbook"
+    xml:id="ch03_80211_wireless_lan"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+
+<title>80211 Wireless LAN</title>
+<abstract></abstract>
+
+<sect1><title>BSS</title>
+    <orderedlist>
+        <listitem>BSS
+            <para>BSS stands for Basic Service Set. The coverage of an access point is called a BSS.</para>
+        </listitem>
+        <listitem>STA
+            <para>STA indicates a wireless device acting in in BSS as a regular STAtion.</para>
+        </listitem>
+    </orderedlist>
+</sect1>
+
+<sect1><title>ESS</title>
+    <para></para>
+</sect1>
+
+<sect1><title>IBSS</title>
+    <orderedlist>
+        <listitem>IBSS
+            <para>IBSS stands for Independent Basic Service Set. Its basically Ad-Hoc mode.</para>
+            <para>详情参考：<xref linkend="ref.basic_service_set" /></para>
+        </listitem>
+    </orderedlist>
+</sect1>
+
+<sect1><title>DSS</title>
+    <para></para>
+</sect1>
+
+<sect1><title>SSID</title>
+    <orderedlist>
+        <listitem>SSID
+            <para>SSID stands for Service Set IDentifier. The SSID is a code attached to all packets on a wireless network to identify each packet as part of that network. The code consists of a string of 1-32 octets (usually represented as case sensitive alphanumeric characters). </para>
+            <para>http://en.wikipedia.org/wiki/SSID</para>
+        </listitem>
+    </orderedlist>
+</sect1>
+
+<sect1><title>Frame Type</title>
+    <para>Frame Types</para>
+    <para>http://www.wi-fiplanet.com/tutorials/article.php/1447501</para>
+    <para></para>
+    <para>Management Frames：</para>
+    <itemizedlist>
+        <listitem>Authentication
+            <para>Authentication frame, <emphasis>Deauthentication</emphasis> frame</para>
+        </listitem>
+        <listitem>Association
+            <para>Association request frame, Association response frame, <emphasis>Disassociation</emphasis> frame</para>
+        </listitem>
+        <listitem>Reassociation
+            <para>Reassociation request frame, Reassociation response frame</para>
+        </listitem>
+        <listitem>Beacon Frame
+            <para>Authentication frame, <emphasis>Deauthentication</emphasis> frame</para>
+        </listitem>
+        <listitem>Probe
+            <para>Probe request frame, Probe response frame</para>
+        </listitem>
+    </itemizedlist>
+    <para></para>
+    <para>Control Frames</para>
+    <itemizedlist>
+        <listitem>Request to Send (RTS) frame</listitem>
+        <listitem>Clear to Send (CTS) frame</listitem>
+        <listitem>Acknowledgement (ACK) frame</listitem>
+    </itemizedlist>
+    <para>Data Frames</para>
+    <para></para>
+    <para>PLME</para>
+    <para>On the other hand PLME stands for Physical Layer Management Entity.</para>
+</sect1>
+
+<sect1><title>802.11 Beacons Related</title>
+    <para>http://www.wi-fiplanet.com/tutorials/article.php/1492071/80211-Beacons-Revealed.htm</para>
+</sect1>
+
+<sect1><title>Use RTS/CTS to avoid hidden station problem</title>
+    <para>http://www.pulsewan.com/data101/802_11_b_basics.htm</para>
+    <para>Another MAC-layer problem specific to wireless is the ?hidden node? issue, in which two stations on opposite sides of an access point can both ?hear? activity from an access point, but not from each other, usually due to distance or an obstruction. To solve this problem, 802.11 specifies an optional Request to Send/Clear to Send (RTS/CTS) protocol at the MAC layer. When this feature is in use, a sending station transmits an RTS and waits for the access point to reply with a CTS. Since all stations in the network can hear the access point, the CTS causes them to delay any intended transmissions, allowing the sending station to transmit and receive a packet acknowledgment without any chance of collision. Since RTS/CTS adds additional overhead to the network by temporarily reserving the medium, it is typically used only on the largest-sized packets, for which retransmission would be expensive from a bandwidth standpoint.</para>
+</sect1>
+
+<sect1><title>CSMA/CA working flow</title>
+    <para>http://www.pulsewan.com/data101/802_11_b_basics.htm</para>
+    <para>CSMA/CA (Carrier Sense Multiple Access with Collision Avoidance) works as follows.</para>
+    <para>A station wishing to transmit senses the air, and, if no activity is detected, the station waits an additional, randomly selected period of time and then transmits if the medium is still free. If the packet is received intact, the receiving station issues an ACK frame that, once successfully received by the sender, completes the process. If the ACK frame is not detected by the sending station, either because the original data packet was not received intact or the ACK was not received intact, a collision is assumed to have occurred and the data packet is transmitted again after waiting another random amount of time.</para>
+</sect1>
+
+</chapter>

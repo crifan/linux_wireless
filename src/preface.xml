@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding="utf-8"?>
+
+<!DOCTYPE preface
+[
+<!ENTITY % crl_ent PUBLIC "crl.ent" 'http://www.crifan.com/files/res/docbook/entity/crl.ent'>
+%crl_ent;
+]>
+
+<preface xmlns="http://docbook.org/ns/docbook"
+    xml:id="preface"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    
+<title>正文之前</title>
+
+<section><title>目的</title>
+    <orderedlist>
+        <listitem>搞懂如何写Linux无线网卡的驱动</listitem>
+        <listitem>记录所学知识。把自己搞懂的东西，能写到让别人也能理解的程度，因为这样才是真正理解了。另外现在理解了，以后还是会忘，而好记性不如烂笔头，万一哪天再需要用到这些知识，也方便查看和温习。</listitem>
+        <listitem>无线网络相关基础知识介绍：此贴不仅仅是要搞懂如何写Linux无线网卡驱动，因为在写驱动之前，肯定也要了解对应的无线网络基础知识，所以此贴也可以用作学习无线网络基础知识之用。</listitem>
+    </orderedlist>
+
+    <para>当然，写无线网卡驱动之前，肯定是不仅有了对应的硬件，也还要有无线网卡的datasheet（数据手册）。</para>
+    <para>再当然，写代码之前，肯定也要搞清楚Linux无线网络驱动的整体架构，</para>
+</section>
+
+<section><title>前提</title>
+    <orderedlist>
+        <listitem>有一定的网络基础知识。</listitem>
+        <listitem>对Linux系统的驱动的基本架构有一定了解</listitem>
+        <listitem>最好有写过其他Linux驱动的经验，这样对于文中所述内容，会有更好的了解</listitem>
+    </orderedlist>
+</section>
+
+<section><title>声明</title>
+    <orderedlist>
+        <listitem>鉴于书写和理解的方便，文中对于常见的缩写，就不一定全部都写中文了。而且表述内容的时候，有可能会出现中英文混杂，而且暂定一些内容，尽量用英文的术语，个人觉得这样有时候更容易把问题说的更透彻。</listitem>
+        <listitem>由于笔者知识有限，错误在所难免，欢迎指正错误和切磋。</listitem>
+        <listitem>任何人可以任意拷贝转载此文，但请注明出处。即版权所有，但欢迎传播。</listitem>
+    </orderedlist>
+</section>
+
+<section><title>本文内容组织的逻辑</title>
+    <para>对于本文的组织内容的逻辑，简单解释一下。</para>
+    <para>此处，首先要搞懂我们的目的/目标是，好像听到旁边有人喊“没有蛀牙！”恭喜这位同学，你都抢答了！只可惜答案不对，囧。此文目的前面已经说了，就是想要搞懂如何去实现Linux下对应的无线网卡驱动。</para>
+    <para>而实现驱动之前，肯定至少要知道两件事情：</para>
+    <itemizedlist>
+        <listitem>一是硬件上，有哪些东西，他们是如何放置的。</listitem>
+        <listitem>二是软件上，通信协议上，是如何实现通信的。</listitem>
+    </itemizedlist>
+    <para>而对于硬件，无线网卡，就要知道其相关的基本名词，基本工作原理等等，对应的还有无线网络的知识。</para>
+    <para>而无线网络，是在有线网络之后才出现的，很多技术规范和设计等，也是参照和兼容有线网络而设计的，两者关系很紧密，所以也要知道有线网卡的一些知识。</para>
+    <para>最后，当然有线网络和无线网络，都属于网络，所以对于所涉及到的网络的基础知识，也要清楚。</para>
+    <para>正因此，才按照：</para>
+    <para><emphasis>硬件：网络 + 有线网络 &rArr; 无线网络 &rArr; 80211无线网络</emphasis></para>
+    <para>这样的顺序来介绍的。</para>
+    <para>而对于软件方面，无线网络驱动，是80211架构下的，而80211无线网络架构，也还是基于Linux的网络架构上的，所以要按照：</para>
+    <para><emphasis>软件：Linux网络架构 &rArr; Linux下的80211 无线网络架构</emphasis></para>
+    <para>来介绍的。</para>
+    <para>这样，将相关的硬件和软件的知识都介绍完了，也才能搞懂后面要介绍的，有哪些硬件，对应软件是如何工作的。</para>
+    <para>其中软件部分，知道Linux无线网络架构本身已经实现了哪些功能，剩下的部分，就是你要实现的驱动的细节部分，这样硬件和软件全部协同工作，才能让无线网卡正常工作。</para>
+</section>
+
+</preface>

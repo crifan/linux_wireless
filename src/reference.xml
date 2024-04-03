@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding="utf-8"?>
+
+<bibliography xmlns="http://docbook.org/ns/docbook"
+    xml:id="reference"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+
+<bibliomixed id="ref.pulsewan_network_training">
+  <bibliosource><ulink url="http://www.pulsewan.com/data_101.htm">Network related training meterials</ulink></bibliosource>
+  <author>pulsewan</author>
+</bibliomixed>
+
+<bibliomixed id="ref.linux_wireless_doc">
+  <bibliosource><ulink url="http://linuxwireless.org/en/developers/Documentation">Linux Wireless - Developer Documentation</ulink></bibliosource>
+  <author>from network</author>
+</bibliomixed>
+
+<bibliomixed id="ref.wiki_mlme">
+  <bibliosource><ulink url="http://en.wikipedia.org/wiki/MLME">MLME</ulink></bibliosource>
+  <author>wiki en</author>
+</bibliomixed>
+
+<bibliomixed id="ref.linux_wireless_glossary">
+  <bibliosource><ulink url="http://linuxwireless.org/en/developers/Documentation/Glossary#SoftMAC">Glossary - Linux Wireless</ulink></bibliosource>
+  <author>from network</author>
+</bibliomixed>
+
+<bibliomixed id="ref.understand_linux_network">
+  <bibliosource><ulink url="http://whitepapers.zdnet.com/abstract.aspx?docid=324603">Understanding Linux Network Internals: Frame Reception</ulink></bibliosource>
+  <author>from network</author>
+</bibliomixed>
+
+<bibliomixed id="ref.basic_service_set">
+  <bibliosource><ulink url="http://en.wikipedia.org/wiki/Independent_Basic_Service_Set">Service set (802.11 network)</ulink></bibliosource>
+  <author>wiki</author>
+</bibliomixed>
+
+<bibliomixed id="ref.linux_wireless_tools">
+  <bibliosource><ulink url="http://www.hpl.hp.com/personal/Jean_Tourrilhes/Linux/Tools.html">Wireless Tools for Linux</ulink></bibliosource>
+  <author>Jean Tourrilhes</author>
+</bibliomixed>
+
+<bibliomixed id="ref.wireless_extention">
+  <bibliosource><ulink url="http://linuxwireless.org/en/developers/Documentation/Wireless-Extensions">About Wireless-Extensions</ulink></bibliosource>
+  <author>from network</author>
+</bibliomixed>
+
+<bibliomixed id="ref.linux_wireless_overview">
+  <bibliosource><ulink url="http://www.hpl.hp.com/personal/Jean_Tourrilhes/Linux/Linux.Wireless.Overview.html">A bit more about the technologies involved</ulink></bibliosource>
+  <author>Jean Tourrilhes</author>
+</bibliomixed>
+
+<bibliomixed id="ref.replace_iwconfig">
+  <bibliosource><ulink url="http://linuxwireless.org/en/users/Documentation/iw/replace-iwconfig">Replacing iwconfig with iw</ulink></bibliosource>
+  <author>from network</author>
+</bibliomixed>
+
+<bibliomixed id="ref.80211_learn_note">
+  <bibliosource><ulink url="http://d.download.csdn.net/down/2916327/kennyli530">802.11学习笔记</ulink></bibliosource>
+  <author>kennyli530</author>
+</bibliomixed>
+
+<bibliomixed id="ref.osi_basic">
+  <bibliosource><ulink url="http://www.pulsewan.com/data101/pdfs/osi_basics.pdf">OSI Basic</ulink></bibliosource>
+  <author>from network</author>
+</bibliomixed>
+
+<bibliomixed id="ref.wireless_comm_tech">
+  <bibliosource><ulink url="http://hi.baidu.com/karashun/blog/item/d24a207292e3ef148701b08c.html">无线网络的通信技术（窄带通信、扩频通信、packet网络，蜂窝网络）</ulink></bibliosource>
+  <author>from network</author>
+</bibliomixed>
+
+<bibliomixed id="ref.spread_spectrum_comm">
+  <bibliosource><ulink url="http://baike.baidu.com/view/3089584.htm">扩展频谱通信</ulink></bibliosource>
+  <author>from network</author>
+</bibliomixed>
+
+</bibliography>

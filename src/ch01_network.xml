@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding="utf-8"?>
+
+<!DOCTYPE chapter
+[
+
+<!ENTITY % crl_ent PUBLIC "crl.ent" 'http://www.crifan.com/files/res/docbook/entity/crl.ent'>
+%crl_ent;
+
+]>
+
+<chapter xmlns="http://docbook.org/ns/docbook"
+    xml:id="ch01_network"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+
+<title>Network</title>
+<abstract></abstract>
+
+<sect1><title>OSI</title>
+    <para>OSI是一套规范的总称，包含了很多具体的协议标准，用于方便不同的系统之间互操作。OSI是ISO和ITU-U这两个组织定义的。</para>
+    <para>其中最有名的就是OSI参考模型，将网络分成不同Layer层次，并且为不同的Layer制定了相应的N多协议规范。</para>
+    <para>图示如下：</para>
+    <figure id="fg.osi_model_layers"><title>OSI参考模型以及不同层所对应的协议</title>
+        <mediaobject>
+            <imageobject role="html">
+                <imagedata fileref="images/osi_model_layers.jpg" align="left" scalefit="0" width="100%" />
+            </imageobject>
+            <imageobject role="fo">
+                <imagedata fileref="images/osi_model_layers.jpg" align="center" scalefit="1" width="100%"/>
+            </imageobject>
+        </mediaobject>
+    </figure>
+    <para>对应的物理层和数据链路层，OSI所支持的介质访问协议包括：</para>
+    <itemizedlist>
+        <listitem>IEEE 802.2 LLC</listitem>
+        <listitem>IEEE 802.3</listitem>
+        <listitem>Token Ring/IEEE 802.5</listitem>
+        <listitem>FDDI</listitem>
+        <listitem>X.25</listitem>
+    </itemizedlist>
+    <para>而80211协议，只涉及最底层的，物理层和数据链路层。</para>
+    <para>下图是802.11和OSI模型的对应关系：</para>
+    <figure id="fg.80211_vs_osi"><title>802.11和OSI模型</title>
+        <mediaobject>
+            <imageobject role="html">
+                <imagedata fileref="images/80211_vs_osi.png" align="left" scalefit="0" width="100%" />
+            </imageobject>
+            <imageobject role="fo">
+                <imagedata fileref="images/80211_vs_osi.png" align="center" scalefit="0" width="100%" />
+            </imageobject>
+        </mediaobject>
+    </figure>
+    <para>对应的物理层方面，可能用到.FH/DS/IR/CCK/OFDM等技术，这部分后面会有详细解释。</para>
+</sect1>
+
+<sect1><title>Ethernet</title>
+    <para>NIC</para>
+    <para></para>
+    <para></para>
+</sect1>
+
+<sect1><title>802 Related Specifications</title>
+    <para></para>
+    <para></para>
+</sect1>
+
+</chapter>

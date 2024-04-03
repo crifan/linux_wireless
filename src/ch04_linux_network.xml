@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding="utf-8"?>
+
+<!DOCTYPE chapter
+[
+
+<!ENTITY % crl_ent PUBLIC "crl.ent" 'http://www.crifan.com/files/res/docbook/entity/crl.ent'>
+%crl_ent;
+
+]>
+
+<chapter xmlns="http://docbook.org/ns/docbook"
+    xml:id="ch04_linux_network"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+
+<title>Linux Network</title>
+<abstract></abstract>
+<para>已经实现了哪些层，（简单描述）有线网络是如何工作的</para>
+
+</chapter>

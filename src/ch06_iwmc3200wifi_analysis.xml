@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding="utf-8"?>
+
+<!DOCTYPE chapter
+[
+
+<!ENTITY % crl_ent PUBLIC "crl.ent" 'http://www.crifan.com/files/res/docbook/entity/crl.ent'>
+%crl_ent;
+
+]>
+
+<chapter xmlns="http://docbook.org/ns/docbook"
+    xml:id="ch06_iwmc3200wifi_analysis"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+
+<title>以iwmc3200wifi为例，分析具体如何实现</title>
+<abstract></abstract>
+
+<sect1><title>系统已经实现了哪些</title>
+    <para></para>
+</sect1>
+
+<sect1><title>自己需要实现哪些</title>
+    <para></para>
+</sect1>
+
+</chapter>
